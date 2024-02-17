@@ -16,13 +16,13 @@
 - git push -u origin main
 
 ### Sub Commands
-- git help -a / git help -g 				- git help
+- git help -a / git help -g 				`git help`
 
 - git status
 - git branch / git branch -a
 - git branch <brname>
 - git checkout <brname>
-- git fetch								    - get the updates from git repo
+- git fetch								    `get the updates from git repo`
 - git pull								    - get the updates from git repo & merge it locally
 - git remote show origin
 - git remote -v
