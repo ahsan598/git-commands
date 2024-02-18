@@ -23,14 +23,14 @@
 - git branch <brname>
 - git checkout <brname>
 - git fetch								    `get the updates from git repo`
-- git pull								    - get the updates from git repo & merge it locally
+- git pull								    `get the updates from git repo & merge it locally`
 - git remote show origin
 - git remote -v
-- git remote get-url origin				    - to get the origin details and set new origin
+- git remote get-url origin				    `to get the origin details and set new origin`
 - git remote set-url origin <remote-url>
-- git branch -d testfile2					- deleting branch locally
-- git push origin -d testfile2			    - deleteing branch remotely
-- git rm testfile2						    - removing file locally
-- git commit -m "remove testfile2"		    - removing file remotely
+- git branch -d testfile2					`deleting branch locally`
+- git push origin -d testfile2			    `deleteing branch remotely`
+- git rm testfile2						    `removing file locally`
+- git commit -m "remove testfile2"		    `removing file remotely`
 - git push origin main
-- git clone -b <brname> <remote-url>	    - Clone a Specific Branch
+- git clone -b <brname> <remote-url>	    `Clone a Specific Branch`
