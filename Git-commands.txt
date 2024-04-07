@@ -24,25 +24,25 @@ Sub Commands
 - git commit                                      - commit previously staged changes
 - git commit -a                                   - commit all local changes in tracked files
 - git commit --amend                              - change the last commit
-- git commit --amend -m 'Updated message'     - add changes to the last commit and update the commit message.
-- git branch <new-branch>		                	- creates a new branch
-- git checkout <branch>			                	- switch to a branch & update working directory
-- git branch -d <branch>		                	- delete a branch
-- git branch -a					                    	- view all local and remote branches
-- git clone -b <branch> <remote-url>          - clone a Specific Branch
-- git fetch							                      - fetch all branches from remote repo
-- git pull <remote> <branch>		              - fetch remote ver of branch & update local branch
-- git push <remote> <branch>		              - push committed changesto remote repo
-- git merge <branch>				                  - merge the specified branch into the current branch
-- git rebase <branch>				                  - reabse your current HEAD onto the specified branch
-- git revert <commit-id>		                	- creates a new commit to revert a specified commit
-- git clean -f -d				                    	- remove all untracked files and folders
-- git show <branch>:<file>			              - View a file in another branch.
-- git remote -v						                    - to print all your remotes fetch/push URLs
-- git remote show origin			                - to get the origin details
-- git remote get-url origin		              	- to get the origin details
-- git remote set-url origin <remote-url>	    - to set new origin
-- git rm <file>						                    - removing file locally
-- git reset HEAD <file>				                - file will be back in the staging area
-- git restore						                      - undo any changes that have been made since then
-- git log							                        - show full change history
+- git commit --amend -m 'Updated message'         - add changes to the last commit and update the commit message.
+- git branch <new-branch>                         - creates a new branch
+- git checkout <branch>                           - switch to a branch & update working directory
+- git branch -d <branch>                          - delete a branch
+- git branch -a                                   - view all local and remote branches
+- git clone -b <branch> <remote-url>              - clone a Specific Branch
+- git fetch                                       - fetch all branches from remote repo
+- git pull <remote> <branch>                      - fetch remote ver of branch & update local branch
+- git push <remote> <branch>                      - push committed changesto remote repo
+- git merge <branch>                              - merge the specified branch into the current branch
+- git rebase <branch>                             - reabse your current HEAD onto the specified branch
+- git revert <commit-id>                          - creates a new commit to revert a specified commit
+- git clean -f -d                                 - remove all untracked files and folders
+- git show <branch>:<file>                        - View a file in another branch.
+- git remote -v                                   - to print all your remotes fetch/push URLs
+- git remote show origin                          - to get the origin details
+- git remote get-url origin                       - to get the origin details
+- git remote set-url origin <remote-url>          - to set new origin
+- git rm <file>                                   - removing file locally
+- git reset HEAD <file>                           - file will be back in the staging area
+- git restore                                     - undo any changes that have been made since then
+- git log                                         - show full change history
