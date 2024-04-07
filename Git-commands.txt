@@ -18,12 +18,12 @@ Sub Commands
 - git help -a / git help -g                       - git help
 - git init                                        - creates a new local repo
 - git diff                                        - show changes not yet stagged
-- git status					                      	    - list new or unmodified changes
-- git add .					                    	      	- stage all changes files
-- git add <file>				                        	- stage a file
-- git commit						                          - commit previously staged changes
-- git commit -a					                        	- commit all local changes in tracked files
-- git commit --amend		                	      	- change the last commit
+- git status                                      - list new or unmodified changes
+- git add .                                       - stage all changes files
+- git add <file>                                  - stage a file
+- git commit                                      - commit previously staged changes
+- git commit -a                                   - commit all local changes in tracked files
+- git commit --amend                              - change the last commit
 - git commit --amend -m 'Updated message'     - add changes to the last commit and update the commit message.
 - git branch <new-branch>		                	- creates a new branch
 - git checkout <branch>			                	- switch to a branch & update working directory
