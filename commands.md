@@ -1,7 +1,8 @@
-**git init** - Initializes a new Git repository. This command creates a new subdirectory named .git that contains all of your necessary repository files.
+**git init** - Initializes a new Git repository.
 ```sh
 git init
 ```
+This command creates a new subdirectory named .git that contains all of your necessary repository files.
 
 **git clone** - Clones a repository into a new directory. This command creates a copy of an existing repository in a new directory.
 ```sh
