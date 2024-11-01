@@ -1,0 +1,2 @@
+`sh git init`
+This command creates a new subdirectory named .git that contains all of your necessary repository files.
