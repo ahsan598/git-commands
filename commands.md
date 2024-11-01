@@ -28,3 +28,41 @@ git commit -m "Commit message"
 ```sh
 git log
 ```
+
+**git branch** - Lists, creates, or deletes branches. The first command lists all branches, and the second command creates a new branch named `new-branch`.
+```sh
+git branch
+git branch new-branch
+```
+
+**git checkout** - Switches branches or restores working tree files. The first command switches to an existing branch, and the second creates and switches to a new branch.
+```sh
+git checkout branch-name
+git checkout -b new-branch
+```
+
+**git merge** - Joins two or more development histories together. This command merges the specified branch into the current branch.
+```sh
+git merge branch-name
+```
+
+**git remote** - Manages set of tracked repositories. The first command shows the URLs that a repository is tracking, and the second command adds a new remote repository.
+```sh
+git remote -v
+git remote add origin https://github.com/username/repository.git
+```
+
+**git pull** - Fetches from and integrates with another repository or a local branch. This command fetches and merges changes from the remote repository's main branch into the current branch.
+```sh
+git pull origin main
+```
+
+**git push** - Updates remote refs along with associated objects. This command pushes the local branch `main` to the remote repository named `origin`.
+```sh
+git push origin main
+```
+
+**git ** - Shows the commit logs. This command displays the commit history with details of each commit.
+```sh
+git 
+```
